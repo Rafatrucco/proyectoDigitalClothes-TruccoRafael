@@ -1,0 +1,293 @@
+
+/* ---------------------------- INICIO ------------- */
+
+.contenedorImagenes{
+    display: flex;
+    justify-content: space-around;
+    
+    width: 100%;
+    
+  
+
+}
+
+.titulo{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.titulo--modificado:hover{
+    color: #a27947;
+}
+
+
+
+/* -------------------------- MENU HEADER PRINCIPAL ------------------ */
+
+ body{
+    background-color: white;
+    
+
+ }
+
+ .menu{
+  
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #a27947;
+    
+}
+
+
+ .menu ul li{
+     display: inline-block;
+     list-style-type: none;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+
+ }
+
+ .menu ul li a{
+     padding: 30px 50px;
+     display: inline-block;
+ }
+
+ .menu ul li:hover{
+     display: inline-block;
+     background-color: #d6af7e;
+
+ }
+
+ 
+
+ a{
+     text-decoration: none;
+     color: black;
+ }
+
+ a:hover{
+     color: #6a7ccb;
+     
+     
+ }
+
+ .gridHeader{
+    display: grid;
+    justify-items: center;
+    margin: 20px;
+
+}
+
+ /* ------------------------ FOOTER ----------------------- */
+
+footer{
+  
+     margin: 20px auto; 
+    padding: 5px; 
+
+    background: #a27947;
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+
+.piePagina{
+
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+
+    /* grid-area: siguenos; */
+
+   
+   
+    
+    
+    
+}
+
+.piePagina p {
+    
+   
+    display: flex;
+}
+
+
+
+.piePagina ul li{
+    list-style-type: cjk-ideographic;
+  
+}
+
+
+
+/* .piePagina p:hover{
+    color: #6a7ccb;
+} */
+
+
+.piePagina ul li a{
+    padding: 5px 20px;
+    width: 100px;
+    display: inline-block;
+ }
+ 
+ .piePagina ul li:hover a{
+     color: #6a7ccb;
+       
+     background-color: #d6af7e;
+ 
+ }
+
+
+
+.contenidoPagina2 {
+    margin: 10px auto;
+    padding: 20px;
+    width: 1000px;
+    /* text-align: center; */
+}
+
+.contenidoPagina2 div{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.contenidoPagina2 p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenidoPagina2 ol{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.contenidoPagina2--parrafo{
+    width: 800px;
+    
+    margin: 10px auto;
+    
+}
+
+/* --------------- GRIDS --------------------------- */
+.gridProductos{
+    display: grid;
+    /* columna = ancho */
+    grid-template-columns: repeat(auto-fill, minmax(420px,1fr));
+    /* fila = altura */
+    grid-template-rows: minmax(310px,auto);
+     
+    grid-template-columns: repeat(auto-fill, minmax(540px,1fr));
+    grid-template-rows: minmax(640px,auto); 
+
+    gap: 100px;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.grid-item{
+    height: 400px;
+    width: 300px;
+}
+
+.grid-imagen{
+    width: 500px;
+    height: 600px;
+
+}
+
+
+
+
+
+
+/* ---------------------- PARA MODIFICAR SIGUENOS ----- */
+
+.gridFooter {
+    display: grid;
+    grid-template-columns: 200px 900px;
+    grid-template-rows: 250px ;
+
+}
+
+.aboutDigital{
+    /* grid-area: aboutDigital; */
+  align-items: center;
+  display: grid;
+    grid-template-columns: autofill;
+    grid-template-rows: 200px 25px;
+
+   justify-items: center;
+    
+    
+}
+
+.aboutDigital img{
+    height: 150px;
+    width: 200px;
+    
+    
+   
+}
+
+/* FIN SIGUENOS */
+
+
+
+
+/* ------------ queries ------------- */
+
+@media all and (max-width: 920px) {
+
+    .gridFooter{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 200px 250px;
+        justify-content: center;
+        align-items: center ;
+
+    }
+
+    .piePagina{
+
+      justify-items: center;
+
+    }
+    
+}
+
+@media all and (max-width: 1254px) {
+    .conte{
+        height: 500px;
+        width: 350px;
+        box-shadow:0 0 7px #111 ;
+        margin: 30px 30px;
+    }
+
+    .boxes{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(370px,1fr));
+        grid-template-rows: 450minmax(px,auto);
+
+        gap: 50px;
+        justify-items: center;
+        justify-content: space-around;
+    }
+}
+
+@media all and (max-width: 645px) {
+
+    .grid-imagen{
+        width: 350px;
+        height: 400px;
+    
+    }
+
+
+}
+
