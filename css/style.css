@@ -237,6 +237,111 @@ footer{
 
 /* FIN SIGUENOS */
 
+/* ---------------------------- PRODUCTOS ------------------- */
+.conte{
+    height: 550px;
+    width: 400px;
+    box-shadow:0 0 7px #111 ;
+    margin: 30px 30px;
+}
+.conte .card{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 170px;
+}
+.card img{
+    margin: auto;
+    display: block;
+}
+.conte .prendaSuperior img{
+    height: 330px;
+    width: 300px;
+}
+.conte .prendaSuperior{
+     /* background-color: #111; */
+     background-color: #f18b6d;
+     background-image: linear-gradient(315deg, #df8e76 0%, #e4c158 74%);
+}
+
+.conte .prendaInferior img{
+    height: 330px;
+    width: 300px;
+}
+.conte .prendaInferior{
+     /* background-color: #111; */
+     background-color: #f18b6d;
+background-image: linear-gradient(315deg, #df8e76 0%, #e4c158 74%);
+}
+
+.conte .Calzado img{
+    height: 330px;
+    width: 300px;
+}
+.conte .Calzado{
+     /* background-color: #111; */
+     background-color: #f18b6d;
+background-image: linear-gradient(315deg, #df8e76 0%, #e4c158 74%);
+
+}
+
+.card img:hover{
+    
+    /* transform: translateY(-10px); */
+    animation: aparecer 2s
+    
+}
+
+.conte .card{
+    transition: height 12s , width 20s;
+}
+
+.boxes{
+
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px,1fr));
+    grid-template-rows: minmax(350px,auto);
+
+    gap: 100px;
+    justify-items: center;
+    justify-content: space-around;
+    
+
+}
+
+
+
+.informacion{
+    height: 80px;
+    width: 100%;
+}
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: -10px;
+}
+.informacion p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9em;
+    color: #555;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+
+    }
+    
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+/* ------------------------------- FIN PRODUCTOS ----------------- */
 
 
 
