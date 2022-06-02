@@ -396,3 +396,45 @@ background-image: linear-gradient(315deg, #df8e76 0%, #e4c158 74%);
 
 }
 
+/* MENU PRINCIPAL INDEX + PRODUCTOS BOOTSTRAP */
+
+
+
+.masinformacion {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .btn-primary:hover{
+     background-color: #d6af7e;
+     border-color:#d6af7e;
+     color: #6a7ccb;
+     
+ }
+ 
+ .btn-primary{
+     background-color: #a27947;
+     border-color: #a27947;
+     color: black;
+ }
+ 
+ .btn-primary:focus {
+     background-color: #d6af7e;
+     border-color:#d6af7e;
+     color: #f4f6ff; 
+     box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
+ }
+ 
+ .btn-secondary{
+     background-color: #a27947;
+     border-color: #a27947;
+     color: black;
+ }
+ 
+ .contenedor-carrusel{
+     display: flex;
+     justify-content: center;
+     height: 500px;
+     width: 450px;
+ }
+
