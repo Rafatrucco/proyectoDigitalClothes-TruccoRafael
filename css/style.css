@@ -11,9 +11,11 @@
 
 }
 
-.titulo{
+.titulo {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
    
 }
 
@@ -35,9 +37,9 @@
   
 
     width: 100%;
-    margin: 0;
-    padding: 0;
-    background: #a27947;
+    margin: none;
+    padding: none;
+    /* background: #a27947; */
     
 }
 
@@ -46,8 +48,12 @@
      display: inline-block;
      list-style-type: none;
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     
+    
 
+ }
+
+ .menu ul {
+    background: #a27947;
  }
 
  .menu ul li a{
