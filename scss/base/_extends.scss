@@ -1,0 +1,15 @@
+// extend %
+// variables $
+// mapas &
+// mixin @
+
+%letras-pagina{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.titulo {
+    @extend %letras-pagina;
+}

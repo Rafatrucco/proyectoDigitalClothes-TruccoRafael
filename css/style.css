@@ -307,7 +307,7 @@ a:hover {
   width: 450px;
 }
 
-/*------------------------ HECHO CON SCSS --------------------- */
+/*------------------------ FOOTER HECHO CON SCSS --------------------- */
 footer {
   margin: 20px auto;
   padding: 5px;
@@ -336,6 +336,13 @@ footer {
 .piePagina ul li a:hover {
   color: #6a7ccb;
   background-color: #d6af7e;
+}
+
+.titulo {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
