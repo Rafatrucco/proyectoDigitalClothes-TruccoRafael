@@ -1,0 +1,15 @@
+//      hecho con mixin
+$clasif : none;
+$dis-header: inline-block;
+
+@mixin menu ($dis-header , $clasif , $fuentes) {
+    display: $dis-header;
+    list-style-type: $clasif;
+    font-family: map-get($fuentes, fuente-menuHeader );
+}
+
+//// ejemplo
+
+.menu ul li {
+    @include menu($dis-header,$clasif,$fuentes)
+}

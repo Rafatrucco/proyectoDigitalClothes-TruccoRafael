@@ -1,15 +1,25 @@
+// utilizando scss
 // extend %
 // variables $
-// mapas &
+// mapas $
 // mixin @
+// & cuando queríamos agregar algo?
 
-%letras-pagina{
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2em;
-    font-weight: bold;
+
+%bgCartasProducto{
+    background-color: #f18b6d;
+    background-image: linear-gradient(315deg, #df8e76 0%, #e4c158 74%); 
 }
 
-.titulo {
-    @extend %letras-pagina;
+.conte .prendaSuperior{
+    @extend %bgCartasProducto
 }
+
+.conte .prendaInferior{
+    @extend %bgCartasProducto
+}
+
+.conte .Calzado {
+    @extend %bgCartasProducto
+}
+

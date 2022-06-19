@@ -2,7 +2,7 @@
 /*------------------------ FOOTER HECHO CON SCSS --------------------- */
 
 $letra : cjk-ideographic;
-$dis : flex;
+$dis-footer : flex;
 
 footer{
   
@@ -25,7 +25,7 @@ footer{
 
    /* grid-area: siguenos; */
 
-   p{ display: $dis}
+   p{ display: $dis-footer}
 
    ul li {
       list-style-type: $letra;

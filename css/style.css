@@ -338,11 +338,15 @@ footer {
   background-color: #d6af7e;
 }
 
-.titulo {
-  text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 2em;
-  font-weight: bold;
+.conte .Calzado, .conte .prendaInferior, .conte .prendaSuperior {
+  background-color: #f18b6d;
+  background-image: linear-gradient(315deg, #df8e76 0%, #e4c158 74%);
+}
+
+.menu ul li {
+  display: inline-block;
+  list-style-type: none;
+  font-family: "" Lucida Sans ", " Lucida Sans Regular ", " Lucida Grande ", " Lucida Sans Unicode ", Geneva, Verdana, sans-serif;";
 }
 
 /*# sourceMappingURL=style.css.map */
