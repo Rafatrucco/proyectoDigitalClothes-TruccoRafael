@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../fotosPaginaWeb/shopping-favicon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <header class="gridHeader">
@@ -28,7 +30,7 @@
 
     <main class="boxes">
 
-        <div class="conte">
+        <div class="conte"data-aos="fade-up" >
     
                 <div class="card prendaSuperior">
                     <img src="../fotosPaginaWeb/PrendaSuperior.jpg" alt="PrendaSuperior">
@@ -40,9 +42,9 @@
                 </div>    
         </div>
     
-        <div class="conte">
+        <div class="conte" data-aos="fade-up">
     
-            <div class="card prendaInferior">
+            <div class="card prendaInferior"  >
                 <img src="../fotosPaginaWeb/PrendaInferior.jpg" alt="PrendaInferior">
             </div>
     
@@ -52,7 +54,7 @@
             </div>
         </div>
     
-        <div class="conte">
+        <div class="conte" data-aos="fade-up" >
         
             <div class="card Calzado">
                 <img src="../fotosPaginaWeb/zapatillas.jpg" alt="Zapatillas">
@@ -66,7 +68,7 @@
     
     </main>
 
-    <section class="masinformacion">
+    <section class="masinformacion"  >
 
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -82,7 +84,8 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  Nuevo ingreso de stock proximamente! Página todavía en proceso.
+                  Nuevo ingreso de stock proximamente!
+                  Contactanos en digitalClothes@gmail.com para obtener información de los nuevos drops.
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -133,5 +136,11 @@
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,once: true,
+      });
+    </script>
 </body>
 </html>

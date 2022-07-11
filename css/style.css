@@ -15,6 +15,42 @@
 .titulo--modificado:hover {
   color: #a27947;
 }
+body{
+  background-color: #a38560;
+  background-image: linear-gradient(315deg, #a38560 0%, #e0d4ae 74%);
+}
+
+.bloqueInicio{
+  padding: 10px;
+  
+
+  display: flex;
+  
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+
+.gridElegiTusProductos{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(45%,45%));
+  grid-template-rows: minmax(400px, auto);
+  gap: 5%;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 5%;
+  margin: 2% auto;
+}
+
+.loMasNovedoso{
+  display: grid;
+  text-align: center;
+  grid-template-rows: auto 94%;
+  justify-content: center;
+  
+
+}
 
 /* -------------------------- MENU HEADER PRINCIPAL ------------------ */
 body {
@@ -26,6 +62,8 @@ body {
   margin: none;
   padding: none;
   /* background: #a27947; */
+  background-color: #a27947;
+  
 }
 
 .menu ul li {
@@ -60,7 +98,8 @@ a:hover {
 .gridHeader {
   display: grid;
   justify-items: center;
-  margin: 20px;
+  margin: 20px auto;
+  
 }
 
 /* ------------------------ FOOTER ----------------------- */
@@ -116,7 +155,7 @@ a:hover {
 /* ---------------------- PARA MODIFICAR SIGUENOS ----- */
 .gridFooter {
   display: grid;
-  grid-template-columns: 200px 900px;
+  grid-template-columns: 33% 33% 33%;
   grid-template-rows: 250px;
 }
 
@@ -161,8 +200,8 @@ a:hover {
 
 .conte .prendaSuperior {
   /* background-color: #111; */
-  background-color: #f18b6d;
-  background-image: linear-gradient(315deg, #df8e76 0%, #e4c158 74%);
+  background-color: #36096d;
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
 }
 
 .conte .prendaInferior img {
@@ -172,8 +211,8 @@ a:hover {
 
 .conte .prendaInferior {
   /* background-color: #111; */
-  background-color: #f18b6d;
-  background-image: linear-gradient(315deg, #df8e76 0%, #e4c158 74%);
+  background-color: #36096d;
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
 }
 
 .conte .Calzado img {
@@ -183,8 +222,8 @@ a:hover {
 
 .conte .Calzado {
   /* background-color: #111; */
-  background-color: #f18b6d;
-  background-image: linear-gradient(315deg, #df8e76 0%, #e4c158 74%);
+  background-color: #36096d;
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
 }
 
 .card img:hover {
@@ -201,9 +240,12 @@ a:hover {
   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   grid-template-rows: minmax(350px, auto);
   gap: 100px;
+  width: 100%;
   justify-items: center;
   justify-content: space-around;
 }
+
+
 
 .informacion {
   height: 80px;
@@ -215,7 +257,7 @@ a:hover {
   font-size: 1.2em;
   text-align: center;
   color: #333;
-  margin-bottom: -10px;
+  margin-bottom: 15px;
 }
 
 .informacion p {
@@ -242,10 +284,27 @@ a:hover {
     grid-template-rows: 200px 250px;
     justify-content: center;
     align-items: center;
+    justify-items: center;
+    
   }
   .piePagina {
     justify-items: center;
+   
   }
+
+  .gridElegiTusProductos{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 400px 200px 200px 400px;
+    margin-bottom: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+  
 }
 @media all and (max-width: 1254px) {
   .conte {
@@ -262,17 +321,38 @@ a:hover {
     justify-items: center;
     justify-content: space-around;
   }
+
+  .contenidoPaginaQSyCC{
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+  }
+
+  
+
 }
+
+
 @media all and (max-width: 645px) {
   .grid-imagen {
     width: 350px;
     height: 400px;
   }
+
+  .contenidoPaginaQSyCC iframe{
+    width: 310px;
+    height: 150px;
+  }
 }
+ 
+
+
 /* MENU PRINCIPAL INDEX + PRODUCTOS BOOTSTRAP */
 .masinformacion {
   display: flex;
   justify-content: center;
+  margin: 10px;
 }
 
 .btn-primary:hover {
@@ -304,12 +384,65 @@ a:hover {
   display: flex;
   justify-content: center;
   height: 500px;
-  width: 450px;
+  width: 100%;
 }
+
+.slide{
+  margin-top: 10px;
+  
+}
+
+.slide img{
+  min-height: 65vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+/*------------------------ INICIO QUIENES SOMOS y COMOCOMPRAR --------------------- */
+.contenidoPaginaQSyCC {
+  margin: 10px auto;
+  /* padding: 20px; */
+  width: 100%;
+  /* text-align: center; */
+  justify-items: center;
+  
+}
+
+.contenidoPaginaQSyCC div {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+
+.contenidoPaginaQSyCC p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenidoPaginaQSyCC ol {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenidoPaginaQSyCC--parrafo {
+  width: 70%;
+  margin: 10px auto;
+  
+}
+
+.contenidoPaginaQSyCC{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto;
+}
+
+
+
+/*------------------------ FIN QUIENES SOMOS y COMOCOMPRAR--------------------- */
+
 
 /*------------------------ FOOTER HECHO CON SCSS --------------------- */
 footer {
-  margin: 20px auto;
+ 
   padding: 5px;
   background: #a27947;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -339,8 +472,8 @@ footer {
 }
 
 .conte .Calzado, .conte .prendaInferior, .conte .prendaSuperior {
-  background-color: #f18b6d;
-  background-image: linear-gradient(315deg, #df8e76 0%, #e4c158 74%);
+  background-color: #36096d;
+  background-image: linear-gradient(315deg, #36096d 0%, #3757d6 74%);
 }
 
 .menu ul li {
