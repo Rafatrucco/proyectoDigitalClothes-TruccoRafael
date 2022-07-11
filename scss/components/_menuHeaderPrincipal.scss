@@ -1,0 +1,55 @@
+/* -------------------------- MENU HEADER PRINCIPAL CON SCSS ------------------ */
+body{
+    background-color: white;
+}
+
+.menu {
+    width: 100%;
+  margin: none;
+  padding: none;
+  /* background: #a27947; */
+  background-color: #a27947;
+
+        ul {
+            background: #a27947;
+                
+                li {
+                    display: inline-block;
+                    list-style-type: none;
+                    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+                
+                    &:hover{
+                        display: inline-block;
+                        background-color: #d6af7e;
+                      
+                    }
+
+                    a {
+                        padding: 30px 50px;
+                        display: inline-block;
+                      }
+                      
+                }
+
+
+              
+        }
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+    &:hover{
+        color: #6a7ccb;
+    }
+}
+
+.gridHeader {
+    display: grid;
+    justify-items: center;
+    margin: 20px auto;
+    
+  }
+  

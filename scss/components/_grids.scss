@@ -1,0 +1,68 @@
+/* --------------- GRIDS --------------------------- */
+.gridProductos {
+    display: grid;
+    /* columna = ancho */
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    /* fila = altura */
+    grid-template-rows: minmax(310px, auto);
+    grid-template-columns: repeat(auto-fill, minmax(540px, 1fr));
+    grid-template-rows: minmax(640px, auto);
+    gap: 100px;
+    justify-items: center;
+    justify-content: space-around;
+  }
+  
+  .grid-item {
+    height: 400px;
+    width: 300px;
+  }
+  
+  .grid-imagen {
+    width: 500px;
+    height: 600px;
+  }
+  
+  .gridFooter {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 250px;
+  }
+
+  .gridElegiTusProductos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45%,45%));
+    grid-template-rows: minmax(400px, auto);
+    gap: 5%;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5%;
+    margin: 2% auto;
+  }
+
+  .loMasNovedoso{
+    display: grid;
+    text-align: center;
+    grid-template-rows: auto 94%;
+    justify-content: center;
+  }
+  
+  .boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-template-rows: minmax(350px, auto);
+    gap: 100px;
+    width: 100%;
+    justify-items: center;
+    justify-content: space-around;
+  }
+  
+  .contenidoPaginaQSyCC{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+  }
+  
+
+  

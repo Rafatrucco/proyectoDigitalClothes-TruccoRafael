@@ -1,0 +1,90 @@
+/* ---------------------------- INICIO ------------- */
+.contenedorImagenes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .titulo {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .titulo--modificado {
+    &:hover{color: #a27947;}
+    
+  }
+
+  body{
+    background-color: #a38560;
+    background-image: linear-gradient(315deg, #a38560 0%, #e0d4ae 74%);
+  }
+  
+  .bloqueInicio{
+    padding: 10px;
+    
+  
+    display: flex;
+    
+    justify-content: center;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* --------------------- MENU PRINCIPAL INDEX + PRODUCTOS BOOTSTRAP ---------------- */
+
+.masinformacion {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.btn-primary{
+  background-color: #a27947;
+  border-color: #a27947;
+  color: black;
+
+    &:hover{
+      background-color: #d6af7e;
+  border-color: #d6af7e;
+  color: #6a7ccb;
+
+    }
+
+    &:focus{
+      background-color: #d6af7e;
+      border-color: #d6af7e;
+      color: #f4f6ff;
+      box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5);
+    }
+}
+
+.btn-secondary {
+  background-color: #a27947;
+  border-color: #a27947;
+  color: black;
+}
+
+.contenedor-carrusel{
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+}
+
+.slide img{
+  min-height: 65vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+
+}
+
+
+
+
+
+
+

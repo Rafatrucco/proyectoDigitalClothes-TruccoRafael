@@ -15,350 +15,24 @@
 .titulo--modificado:hover {
   color: #a27947;
 }
-body{
+
+body {
   background-color: #a38560;
   background-image: linear-gradient(315deg, #a38560 0%, #e0d4ae 74%);
 }
 
-.bloqueInicio{
+.bloqueInicio {
   padding: 10px;
-  
-
   display: flex;
-  
   justify-content: center;
   color: rgb(0, 0, 0);
 }
 
-.gridElegiTusProductos{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(45%,45%));
-  grid-template-rows: minmax(400px, auto);
-  gap: 5%;
-  justify-items: center;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  padding: 5%;
-  margin: 2% auto;
-}
-
-.loMasNovedoso{
-  display: grid;
-  text-align: center;
-  grid-template-rows: auto 94%;
-  justify-content: center;
-  
-
-}
-
-/* -------------------------- MENU HEADER PRINCIPAL ------------------ */
-body {
-  background-color: white;
-}
-
-.menu {
-  width: 100%;
-  margin: none;
-  padding: none;
-  /* background: #a27947; */
-  background-color: #a27947;
-  
-}
-
-.menu ul li {
-  display: inline-block;
-  list-style-type: none;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-.menu ul {
-  background: #a27947;
-}
-
-.menu ul li a {
-  padding: 30px 50px;
-  display: inline-block;
-}
-
-.menu ul li:hover {
-  display: inline-block;
-  background-color: #d6af7e;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: #6a7ccb;
-}
-
-.gridHeader {
-  display: grid;
-  justify-items: center;
-  margin: 20px auto;
-  
-}
-
-/* ------------------------ FOOTER ----------------------- */
-.contenidoPagina2 {
-  margin: 10px auto;
-  padding: 20px;
-  width: 1000px;
-  /* text-align: center; */
-}
-
-.contenidoPagina2 div {
-  text-align: center;
-  font-family: "Bebas Neue", cursive;
-}
-
-.contenidoPagina2 p {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.contenidoPagina2 ol {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.contenidoPagina2--parrafo {
-  width: 800px;
-  margin: 10px auto;
-}
-
-/* --------------- GRIDS --------------------------- */
-.gridProductos {
-  display: grid;
-  /* columna = ancho */
-  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
-  /* fila = altura */
-  grid-template-rows: minmax(310px, auto);
-  grid-template-columns: repeat(auto-fill, minmax(540px, 1fr));
-  grid-template-rows: minmax(640px, auto);
-  gap: 100px;
-  justify-items: center;
-  justify-content: space-around;
-}
-
-.grid-item {
-  height: 400px;
-  width: 300px;
-}
-
-.grid-imagen {
-  width: 500px;
-  height: 600px;
-}
-
-/* ---------------------- PARA MODIFICAR SIGUENOS ----- */
-.gridFooter {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 250px;
-}
-
-.aboutDigital {
-  /* grid-area: aboutDigital; */
-  align-items: center;
-  display: grid;
-  grid-template-columns: autofill;
-  grid-template-rows: 200px 25px;
-  justify-items: center;
-}
-
-.aboutDigital img {
-  height: 150px;
-  width: 200px;
-}
-
-/* FIN SIGUENOS */
-/* ---------------------------- PRODUCTOS ------------------- */
-.conte {
-  height: 550px;
-  width: 400px;
-  box-shadow: 0 0 7px #111;
-  margin: 30px 30px;
-}
-
-.conte .card {
-  height: 200px;
-  width: 100%;
-  margin-bottom: 170px;
-}
-
-.card img {
-  margin: auto;
-  display: block;
-}
-
-.conte .prendaSuperior img {
-  height: 330px;
-  width: 300px;
-}
-
-.conte .prendaSuperior {
-  /* background-color: #111; */
-  background-color: #36096d;
-  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
-}
-
-.conte .prendaInferior img {
-  height: 330px;
-  width: 300px;
-}
-
-.conte .prendaInferior {
-  /* background-color: #111; */
-  background-color: #36096d;
-  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
-}
-
-.conte .Calzado img {
-  height: 330px;
-  width: 300px;
-}
-
-.conte .Calzado {
-  /* background-color: #111; */
-  background-color: #36096d;
-  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
-}
-
-.card img:hover {
-  /* transform: translateY(-10px); */
-  animation: aparecer 2s;
-}
-
-.conte .card {
-  transition: height 12s, width 20s;
-}
-
-.boxes {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-  grid-template-rows: minmax(350px, auto);
-  gap: 100px;
-  width: 100%;
-  justify-items: center;
-  justify-content: space-around;
-}
-
-
-
-.informacion {
-  height: 80px;
-  width: 100%;
-}
-
-.informacion h1 {
-  font-family: sans-serif;
-  font-size: 1.2em;
-  text-align: center;
-  color: #333;
-  margin-bottom: 15px;
-}
-
-.informacion p {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 0.9em;
-  color: #555;
-}
-
-@keyframes aparecer {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-/* ------------------------------- FIN PRODUCTOS ----------------- */
-/* ------------ queries ------------- */
-@media all and (max-width: 920px) {
-  .gridFooter {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 200px 250px;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    
-  }
-  .piePagina {
-    justify-items: center;
-   
-  }
-
-  .gridElegiTusProductos{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 400px 200px 200px 400px;
-    margin-bottom: 200px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-
-
-  
-}
-@media all and (max-width: 1254px) {
-  .conte {
-    height: 500px;
-    width: 350px;
-    box-shadow: 0 0 7px #111;
-    margin: 30px 30px;
-  }
-  .boxes {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
-    grid-template-rows: 450minmax px, auto;
-    gap: 50px;
-    justify-items: center;
-    justify-content: space-around;
-  }
-
-  .contenidoPaginaQSyCC{
-    display: grid;
-    grid-template-columns: 300px auto;
-    grid-template-rows: auto auto;
-    justify-items: center;
-  }
-
-  
-
-}
-
-
-@media all and (max-width: 645px) {
-  .grid-imagen {
-    width: 350px;
-    height: 400px;
-  }
-
-  .contenidoPaginaQSyCC iframe{
-    width: 310px;
-    height: 150px;
-  }
-}
- 
-
-
-/* MENU PRINCIPAL INDEX + PRODUCTOS BOOTSTRAP */
+/* --------------------- MENU PRINCIPAL INDEX + PRODUCTOS BOOTSTRAP ---------------- */
 .masinformacion {
   display: flex;
   justify-content: center;
   margin: 10px;
-}
-
-.btn-primary:hover {
-  background-color: #d6af7e;
-  border-color: #d6af7e;
-  color: #6a7ccb;
 }
 
 .btn-primary {
@@ -366,7 +40,11 @@ a:hover {
   border-color: #a27947;
   color: black;
 }
-
+.btn-primary:hover {
+  background-color: #d6af7e;
+  border-color: #d6af7e;
+  color: #6a7ccb;
+}
 .btn-primary:focus {
   background-color: #d6af7e;
   border-color: #d6af7e;
@@ -387,12 +65,7 @@ a:hover {
   width: 100%;
 }
 
-.slide{
-  margin-top: 10px;
-  
-}
-
-.slide img{
+.slide img {
   min-height: 65vh;
   background-position: center;
   background-size: cover;
@@ -400,49 +73,52 @@ a:hover {
   z-index: 1;
 }
 
-/*------------------------ INICIO QUIENES SOMOS y COMOCOMPRAR --------------------- */
-.contenidoPaginaQSyCC {
-  margin: 10px auto;
-  /* padding: 20px; */
+/* -------------------------- MENU HEADER PRINCIPAL CON SCSS ------------------ */
+body {
+  background-color: white;
+}
+
+.menu {
   width: 100%;
-  /* text-align: center; */
-  justify-items: center;
-  
+  margin: none;
+  padding: none;
+  /* background: #a27947; */
+  background-color: #a27947;
+}
+.menu ul {
+  background: #a27947;
+}
+.menu ul li {
+  display: inline-block;
+  list-style-type: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.menu ul li:hover {
+  display: inline-block;
+  background-color: #d6af7e;
+}
+.menu ul li a {
+  padding: 30px 50px;
+  display: inline-block;
 }
 
-.contenidoPaginaQSyCC div {
-  text-align: center;
-  font-family: "Bebas Neue", cursive;
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #6a7ccb;
 }
 
-.contenidoPaginaQSyCC p {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.contenidoPaginaQSyCC ol {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.contenidoPaginaQSyCC--parrafo {
-  width: 70%;
-  margin: 10px auto;
-  
-}
-
-.contenidoPaginaQSyCC{
+.gridHeader {
   display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: auto auto;
+  justify-items: center;
+  margin: 20px auto;
 }
-
-
-
-/*------------------------ FIN QUIENES SOMOS y COMOCOMPRAR--------------------- */
-
 
 /*------------------------ FOOTER HECHO CON SCSS --------------------- */
 footer {
- 
+  margin: 20px auto;
   padding: 5px;
   background: #a27947;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -471,9 +147,247 @@ footer {
   background-color: #d6af7e;
 }
 
+/* ------------------------ FOOTER -- contenido ----------------------- */
+.contenidoPagina2 {
+  margin: 10px auto;
+  padding: 20px;
+  width: 1000px;
+  /* text-align: center; */
+}
+.contenidoPagina2 div {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+.contenidoPagina2 p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contenidoPagina2 ol {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenidoPagina2--parrafo {
+  width: 800px;
+  margin: 10px auto;
+}
+
+/* ---------------------- MODIFICANDO SIGUENOS (FOOTER) ----- */
+.aboutDigital {
+  align-items: center;
+  display: grid;
+  grid-template-columns: autofill;
+  grid-template-rows: 200px 25px;
+  justify-items: center;
+}
+.aboutDigital img {
+  height: 150px;
+  width: 200px;
+}
+
+/*------------------------ INICIO QUIENES SOMOS y COMOCOMPRAR --------------------- */
+.contenidoPaginaQSyCC {
+  margin: 10px auto;
+  /* padding: 20px; */
+  width: 100%;
+  /* text-align: center; */
+  justify-items: center;
+}
+.contenidoPaginaQSyCC div {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+.contenidoPaginaQSyCC p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contenidoPaginaQSyCC ol {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenidoPaginaQSyCC--parrafo {
+  width: 70%;
+  margin: 10px auto;
+}
+
+/* ---------------------------- PRODUCTOS ------------------- */
+.conte {
+  height: 550px;
+  width: 400px;
+  box-shadow: 0 0 7px #111;
+  margin: 30px 30px;
+}
+.conte .card {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 170px;
+  transition: height 12s, width 20s;
+}
+.conte .card img {
+  margin: auto;
+  display: block;
+}
+.conte .card img:hover {
+  animation: aparecer 2s;
+}
+.conte .prendaSuperior, .conte .prendaInferior, .conte .Calzado {
+   background-color: #36096d;
+        background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+        
+}
+.conte .prendaSuperior img, .conte .prendaInferior img, .conte .Calzado img {
+  height: 330px;
+  width: 300px;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.informacion {
+  height: 80px;
+  width: 100%;
+}
+.informacion h1 {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+.informacion p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* --------------- GRIDS --------------------------- */
+.gridProductos {
+  display: grid;
+  /* columna = ancho */
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  /* fila = altura */
+  grid-template-rows: minmax(310px, auto);
+  grid-template-columns: repeat(auto-fill, minmax(540px, 1fr));
+  grid-template-rows: minmax(640px, auto);
+  gap: 100px;
+  justify-items: center;
+  justify-content: space-around;
+}
+
+.grid-item {
+  height: 400px;
+  width: 300px;
+}
+
+.grid-imagen {
+  width: 500px;
+  height: 600px;
+}
+
+.gridFooter {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 250px;
+}
+
+.gridElegiTusProductos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(45%, 45%));
+  grid-template-rows: minmax(400px, auto);
+  gap: 5%;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 5%;
+  margin: 2% auto;
+}
+
+.loMasNovedoso {
+  display: grid;
+  text-align: center;
+  grid-template-rows: auto 94%;
+  justify-content: center;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-rows: minmax(350px, auto);
+  gap: 100px;
+  width: 100%;
+  justify-items: center;
+  justify-content: space-around;
+}
+
+.contenidoPaginaQSyCC {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto;
+}
+
+/* ------------ queries ------------- */
+@media all and (max-width: 920px) {
+  .gridFooter {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 200px 250px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .piePagina {
+    justify-items: center;
+  }
+  .gridElegiTusProductos {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 400px 200px 200px 400px;
+    margin-bottom: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media all and (max-width: 1254px) {
+  .conte {
+    height: 500px;
+    width: 350px;
+    box-shadow: 0 0 7px #111;
+    margin: 30px 30px;
+  }
+  .boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    grid-template-rows: 450minmax px, auto;
+    gap: 50px;
+    justify-items: center;
+    justify-content: space-around;
+  }
+  .contenidoPaginaQSyCC {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+  }
+}
+@media all and (max-width: 645px) {
+  .grid-imagen {
+    width: 350px;
+    height: 400px;
+  }
+  .contenidoPaginaQSyCC iframe {
+    width: 310px;
+    height: 150px;
+  }
+}
 .conte .Calzado, .conte .prendaInferior, .conte .prendaSuperior {
   background-color: #36096d;
-  background-image: linear-gradient(315deg, #36096d 0%, #3757d6 74%);
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+  
 }
 
 .menu ul li {

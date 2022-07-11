@@ -1,0 +1,77 @@
+/* ---------------------------- PRODUCTOS ------------------- */
+.conte {
+    
+    height: 550px;
+    width: 400px;
+    box-shadow: 0 0 7px #111;
+    margin: 30px 30px;
+
+    .card{
+        height: 200px;
+     width: 100%;
+    margin-bottom: 170px;
+    transition: height 12s, width 20s;
+        img {
+            margin: auto;
+            display: block;
+
+            &:hover{
+                animation: aparecer 2s;
+            }
+
+        }
+
+
+
+    }
+
+    .prendaSuperior , .prendaInferior , .Calzado{
+        background-color: #36096d;
+        background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+        
+        img{
+            height: 330px;
+            width: 300px;
+
+        }
+
+    }
+
+
+}
+
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }  
+
+
+.informacion {
+    height: 80px;
+    width: 100%;  
+
+    h1{
+        font-family: sans-serif;
+        font-size: 1.2em;
+        text-align: center;
+        color: #333;
+        margin-bottom: 15px;
+
+    }
+
+    p {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 0.9em;
+        color: #555;     
+    }
+
+
+}
+
+
+

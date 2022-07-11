@@ -41,9 +41,60 @@ footer{
       width: 100px;
       display: inline-block;
    }
-  
-   
-   
-   
+     
 }
+
+/* ------------------------ FOOTER -- contenido ----------------------- */
+
+.contenidoPagina2 {
+   margin: 10px auto;
+   padding: 20px;
+   width: 1000px;
+   /* text-align: center; */
+
+   div {
+      text-align: center;
+      font-family: "Bebas Neue", cursive;
+   }
+
+   p {
+      font-family: Arial, Helvetica, sans-serif;
+   }
+
+   ol {
+      font-family: Arial, Helvetica, sans-serif;
+   }
+
+
+ }
+
+ .contenidoPagina2--parrafo{
+   width: 800px;
+   margin: 10px auto;
+ }
+ 
+/* ---------------------- MODIFICANDO SIGUENOS (FOOTER) ----- */
+
+.aboutDigital{
+   align-items: center;
+  display: grid;
+  grid-template-columns: autofill;
+  grid-template-rows: 200px 25px;
+  justify-items: center;
+   
+   img {
+      height: 150px;
+      width: 200px;
+
+   }
+
+}
+
+
+
+
+
+
+
+
 
