@@ -384,8 +384,9 @@ footer {
   }
 }
 .conte .Calzado, .conte .prendaInferior, .conte .prendaSuperior {
-  background-color: #f18b6d;
-  background-image: linear-gradient(315deg, #df8e76 0%, #e4c158 74%);
+  background-color: #36096d;
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+  
 }
 
 .menu ul li {
